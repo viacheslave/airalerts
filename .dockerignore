@@ -1,0 +1,16 @@
+# exclude
+**/.git
+**/*.md
+**/*.ps1
+
+.vs
+.vscode
+.git
+.gitignore
+.gitattributes
+.editorconfig
+
+doc*
+readme*
+
+data

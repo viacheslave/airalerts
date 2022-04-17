@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="Quartz.Extensions.DependencyInjection" Version="3.4.0" />
+    <PackageReference Include="Quartz.Extensions.Hosting" Version="3.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AirAlerts.Application\AirAlerts.Application.csproj" />
+    <ProjectReference Include="..\AirAlerts.Jobs\AirAlerts.Jobs.csproj" />
+    <ProjectReference Include="..\AirAlerts.TelegramReporter\AirAlerts.TelegramReporter.csproj" />
+  </ItemGroup>
+
+</Project>

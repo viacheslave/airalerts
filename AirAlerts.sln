@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AirAlerts.Application", "src\AirAlerts.Application\AirAlerts.Application.csproj", "{2773C006-2404-4707-91B3-80AEBCB8F66A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AirAlerts.Console", "src\AirAlerts.Console\AirAlerts.Console.csproj", "{5EE4FCF5-9D69-4B4B-9192-EBD9539A389C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AirAlerts.Jobs", "src\AirAlerts.Jobs\AirAlerts.Jobs.csproj", "{DF22EA6A-0B06-45BF-BE7B-BCDADAA9E2E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AirAlerts.TelegramReporter", "src\AirAlerts.TelegramReporter\AirAlerts.TelegramReporter.csproj", "{B735B747-ADDC-443C-BD7A-23C291AFC150}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{80A0FA2C-E683-4E8E-87DF-6E146601CD72}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AirAlerts.Tests", "tests\AirAlerts.Tests\AirAlerts.Tests.csproj", "{351F9524-F462-4755-AD41-640078D9ED4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2773C006-2404-4707-91B3-80AEBCB8F66A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2773C006-2404-4707-91B3-80AEBCB8F66A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2773C006-2404-4707-91B3-80AEBCB8F66A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2773C006-2404-4707-91B3-80AEBCB8F66A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EE4FCF5-9D69-4B4B-9192-EBD9539A389C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EE4FCF5-9D69-4B4B-9192-EBD9539A389C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EE4FCF5-9D69-4B4B-9192-EBD9539A389C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EE4FCF5-9D69-4B4B-9192-EBD9539A389C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF22EA6A-0B06-45BF-BE7B-BCDADAA9E2E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF22EA6A-0B06-45BF-BE7B-BCDADAA9E2E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF22EA6A-0B06-45BF-BE7B-BCDADAA9E2E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF22EA6A-0B06-45BF-BE7B-BCDADAA9E2E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B735B747-ADDC-443C-BD7A-23C291AFC150}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B735B747-ADDC-443C-BD7A-23C291AFC150}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B735B747-ADDC-443C-BD7A-23C291AFC150}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B735B747-ADDC-443C-BD7A-23C291AFC150}.Release|Any CPU.Build.0 = Release|Any CPU
+		{351F9524-F462-4755-AD41-640078D9ED4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{351F9524-F462-4755-AD41-640078D9ED4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{351F9524-F462-4755-AD41-640078D9ED4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{351F9524-F462-4755-AD41-640078D9ED4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{351F9524-F462-4755-AD41-640078D9ED4B} = {80A0FA2C-E683-4E8E-87DF-6E146601CD72}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {353F0700-3EE3-47F8-AEE8-01B6F6250E01}
+	EndGlobalSection
+EndGlobal
