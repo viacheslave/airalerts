@@ -1,4 +1,4 @@
-﻿using Quartz;
+using Quartz;
 
 namespace AirAlerts.Jobs;
 
@@ -10,7 +10,7 @@ public class SchedulerManager
   private IScheduler _scheduler;
   private TriggerKey _key;
 
-  private static readonly TimeSpan _syncAlertsJobInterval = TimeSpan.FromSeconds(90);
+  private static readonly TimeSpan _syncAlertsJobInterval = TimeSpan.FromSeconds(30);
 
   public async Task Setup(IServiceProvider sp)
   {
